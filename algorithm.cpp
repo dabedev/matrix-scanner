@@ -62,31 +62,6 @@ int main()
         inferior=inferior + (char)arr[i][x];
     }
     }
-    /*printf("\n");
-    cout<<superior<<"\n"<<inferior;
-    printf("\n");
-    if (inferior == superior) {
-    for(int i = 0; i < Max; i++)
-    {
-            for(int x = 0; x < Max; x++)
-    {
-        arr2[i][x] = arr[Max-i][Max-x];
-    }
-    }
-        cout<<"Resultado de la matriz invertida:"<<endl;
-    for(int i = 0; i < Max; i++)
-    {
-            for(int x = 0; x < Max; x++)
-    {
-        if (x == Max - 1) {
-            cout<<arr[i][x]<<endl;
-        } else {
-        cout<<arr[i][x]<<" ";
-        }
-    }
-    }
-    }
-    else return false;*/
 
     return 0;
 }
